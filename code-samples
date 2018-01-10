@@ -1,0 +1,24 @@
+### A nested function that prints a stack trace error.
+## The second largest heading
+
+````
+
+function firstFunction(){
+throw new Error('Stack Trace Error');
+}
+function secondFunction(){
+firstFunction();
+}
+function thirdFunction(){
+secondFunction();
+}
+thirdFunction();
+
+
+````
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
